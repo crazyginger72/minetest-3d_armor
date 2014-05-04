@@ -1,10 +1,17 @@
 Modpack - 3d Armor [0.4.1]
 ==========================
 
+[mod] Multi Skins [multiskin]
+-----------------------------
+
+depends: default
+
+Common multi layer player texturing api
+
 [mod] Visible Player Armor [3d_armor]
 -------------------------------------
 
-depends: default
+depends: multiskin
 
 recommends: inventory_plus or unified_inventory (use only one)
 
@@ -23,7 +30,7 @@ see armor.conf.example for all available options.
 [mod] Visible Wielded Items [wieldview]
 ---------------------------------------
 
-depends: 3d_armor
+depends: multiskin
 
 Makes hand wielded items visible to other players.
 
